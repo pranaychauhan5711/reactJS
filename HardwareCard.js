@@ -3,7 +3,7 @@ import "./style.css";
 import HardwareMenu from "./HardwareMenuApi.js";
 
 const HardwareCard = () => {
-      const [menuData,setMenuData] = useState(HardwareMenu);  
+       
       return(
         <section className='main-card--container'>
         {
