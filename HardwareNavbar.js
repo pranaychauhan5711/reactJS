@@ -1,6 +1,6 @@
 import React from 'react' 
 
-const HardwareNavbar = () => {
+const HardwareNavbar = ({filterItem,HardwareMenuData}) => {
   
     return (
             <>
