@@ -2,7 +2,7 @@ import React from 'react'
 import "./style.css";
 import HardwareMenu from "./HardwareMenuApi.js";
 
-const HardwareCard = () => {
+const HardwareCard = ({menuData}) => {
        
       return(
         <section className='main-card--container'>
